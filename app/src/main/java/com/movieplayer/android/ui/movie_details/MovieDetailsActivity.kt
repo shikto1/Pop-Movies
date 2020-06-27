@@ -83,6 +83,8 @@ class MovieDetailsActivity : MvpBaseActivity<MovieDetailsPresenter>(), MovieDeta
 
 
     override fun movieDetailsDidReceived(response: MovieDetailsResponse) {
+        llMovieDetails.visibility = View.VISIBLE
+
         val posterPath = "${APIs.THUMB_BASE}${response.posterPath}"
         val runtime = "${response.runtime}min"
         val rating = "${response.voteAverage}/10"
