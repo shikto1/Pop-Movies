@@ -30,8 +30,8 @@ class TrailersAdapter(context: Context) :
     inner class ItemViewHolder(itemView: View) : BaseViewHolder(itemView) {
 
         override fun bind(position: Int) {
-            val singleTrailer = dataList[position] as MovieTrailerResponse.SingleTrailer
-            itemView.tvTrailerName.text = "Trailer $position"
+            val trailerTxt = "Trailer ${position + 1}"
+            itemView.tvTrailerName.text = trailerTxt
         }
     }
 }
