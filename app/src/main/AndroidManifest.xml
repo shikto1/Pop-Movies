@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.movieplayer.android">
+
+    <!-- NETWORK -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+            android:name=".base.BaseApplication"
+            android:allowBackup="true"
+            android:fullBackupContent="true"
+            android:hardwareAccelerated="true"
+            android:icon="@mipmap/app_launcher"
+            android:label="@string/app_name"
+            android:largeHeap="true"
+            android:roundIcon="@mipmap/app_launcher"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme"
+            android:usesCleartextTraffic="true"
+            tools:ignore="AllowBackup,GoogleAppIndexingWarning,UnusedAttribute">
+
+        <activity
+                android:name=".ui.youtube.MyYoutubeVideoPlayerActivity"
+                android:configChanges="keyboardHidden|orientation|screenSize"
+                android:theme="@style/NoActionBar"/>
+
+        <activity android:name=".ui.popular_movie.PopularMovieActivity"
+                  android:configChanges="orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ui.movie_details.MovieDetailsActivity"/>
+
+    </application>
+
+</manifest>

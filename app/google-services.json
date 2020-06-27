@@ -1,0 +1,335 @@
+{
+  "project_info": {
+    "project_number": "658280121001",
+    "firebase_url": "https://personal-project-9abff.firebaseio.com",
+    "project_id": "personal-project-9abff",
+    "storage_bucket": "personal-project-9abff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:658280121001:android:6a88f41193b4a3de085fb8",
+        "android_client_info": {
+          "package_name": "com.ecommerce.woocommerce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "658280121001-cc1eph3shjqr325g9knnel080o4duvs2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2ML514dwzTq_qiAYM4l_LQPaEPyztLDk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "658280121001-cc1eph3shjqr325g9knnel080o4duvs2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "658280121001-ebc5r3tkchjmnaardrbsio0bad1rqoet.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.walletmix.pushNotificationtest"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:658280121001:android:a19e5bb7bf1361ef",
+        "android_client_info": {
+          "package_name": "com.example.androidx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "658280121001-cc1eph3shjqr325g9knnel080o4duvs2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2ML514dwzTq_qiAYM4l_LQPaEPyztLDk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "658280121001-cc1eph3shjqr325g9knnel080o4duvs2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "658280121001-ebc5r3tkchjmnaardrbsio0bad1rqoet.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.walletmix.pushNotificationtest"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:658280121001:android:b45a9234393fed3d085fb8",
+        "android_client_info": {
+          "package_name": "com.example.baserepository"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "658280121001-cc1eph3shjqr325g9knnel080o4duvs2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2ML514dwzTq_qiAYM4l_LQPaEPyztLDk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "658280121001-cc1eph3shjqr325g9knnel080o4duvs2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "658280121001-ebc5r3tkchjmnaardrbsio0bad1rqoet.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.walletmix.pushNotificationtest"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:658280121001:android:52fe1c82d6a3ff6c085fb8",
+        "android_client_info": {
+          "package_name": "com.istytion.events"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "658280121001-cc1eph3shjqr325g9knnel080o4duvs2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2ML514dwzTq_qiAYM4l_LQPaEPyztLDk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "658280121001-cc1eph3shjqr325g9knnel080o4duvs2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "658280121001-ebc5r3tkchjmnaardrbsio0bad1rqoet.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.walletmix.pushNotificationtest"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:658280121001:android:2ad9b8e4fa0d2288085fb8",
+        "android_client_info": {
+          "package_name": "com.movieplayer.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "658280121001-cc1eph3shjqr325g9knnel080o4duvs2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2ML514dwzTq_qiAYM4l_LQPaEPyztLDk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "658280121001-cc1eph3shjqr325g9knnel080o4duvs2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "658280121001-ebc5r3tkchjmnaardrbsio0bad1rqoet.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.walletmix.pushNotificationtest"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:658280121001:android:b72295afb821a3f8085fb8",
+        "android_client_info": {
+          "package_name": "com.shishir.baseapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "658280121001-cc1eph3shjqr325g9knnel080o4duvs2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2ML514dwzTq_qiAYM4l_LQPaEPyztLDk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "658280121001-cc1eph3shjqr325g9knnel080o4duvs2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "658280121001-ebc5r3tkchjmnaardrbsio0bad1rqoet.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.walletmix.pushNotificationtest"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:658280121001:android:1e660477a4a46772",
+        "android_client_info": {
+          "package_name": "com.shishirstudio.push_notification_android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "658280121001-cc1eph3shjqr325g9knnel080o4duvs2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2ML514dwzTq_qiAYM4l_LQPaEPyztLDk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "658280121001-cc1eph3shjqr325g9knnel080o4duvs2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "658280121001-ebc5r3tkchjmnaardrbsio0bad1rqoet.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.walletmix.pushNotificationtest"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:658280121001:android:4e51deab426fd046085fb8",
+        "android_client_info": {
+          "package_name": "com.walletmix.expensemanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "658280121001-cc1eph3shjqr325g9knnel080o4duvs2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2ML514dwzTq_qiAYM4l_LQPaEPyztLDk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "658280121001-cc1eph3shjqr325g9knnel080o4duvs2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "658280121001-ebc5r3tkchjmnaardrbsio0bad1rqoet.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.walletmix.pushNotificationtest"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:658280121001:android:6b6492b890bce92f",
+        "android_client_info": {
+          "package_name": "shishirtstudio.com.templateproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "658280121001-cc1eph3shjqr325g9knnel080o4duvs2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2ML514dwzTq_qiAYM4l_LQPaEPyztLDk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "658280121001-cc1eph3shjqr325g9knnel080o4duvs2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "658280121001-ebc5r3tkchjmnaardrbsio0bad1rqoet.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.walletmix.pushNotificationtest"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,144 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--<item name="android:fontFamily">@font/montserrat_font_family</item>-->
+        <!--<item name="android:fontFamily">@font/hind_siliguri_font_family</item>-->
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--<item name="android:fontFamily">@font/montserrat_font_family</item>-->
+        <!--<item name="android:fontFamily">@font/hind_siliguri_font_family</item>-->
+    </style>  <!-- Base application theme. -->
+    <style name="Dark" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--<item name="android:fontFamily">@font/montserrat_font_family</item>-->
+        <!--<item name="android:fontFamily">@font/hind_siliguri_font_family</item>-->
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="AppSearchView" parent="Widget.AppCompat.SearchView">
+        <item name="android:textSize">@dimen/mediumText</item>
+    </style>
+
+    <style name="TOOLBAR" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorControlNormal">@color/colorPrimary</item>
+        //the rest of your codes...
+    </style>
+
+    <!-- Divider Start -->
+    <style name="vertical_divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/offWhite</item>
+    </style>
+
+    <style name="horizontal_divider">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/darkWhite</item>
+    </style>
+    <!-- Divider End -->
+
+    <style name="edit_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/edit_text</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">@dimen/mediumText</item>
+        <item name="android:padding">@dimen/largeMargin</item>
+        <item name="android:drawablePadding">@dimen/mediumMargin</item>
+    </style>
+
+    <style name="custom_button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:background">@drawable/custom_button_color_primary</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/mediumText</item>
+    </style>
+
+
+    <style name="small_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/smallText</item>
+    </style>
+
+    <style name="medium_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/mediumText</item>
+    </style>
+
+    <style name="large_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/largeText</item>
+    </style>
+
+    <style name="x_small_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/xSmallText</item>
+    </style>
+
+    <style name="MyAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MyNumberPickerTheme">
+        <item name="colorControlNormal">@android:color/transparent</item>
+        <item name="android:background">@color/white</item>
+        <!--<item name="android:textColorPrimary">@color/colorPrimary</item>-->
+        <item name="android:textSize">@dimen/mediumText</item>
+    </style>
+
+    <style name="Navigation_View_Theme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/colorPrimary</item>
+    </style>
+
+
+    <!-- Text Input Layout -->
+
+    <style name="HintText" parent="TextAppearance.Design.Hint">
+        <item name="android:textSize">@dimen/mediumText</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+
+    <style name="ErrorText" parent="TextAppearance.Design.Error">
+        <item name="android:textSize">@dimen/mediumText</item>
+        <item name="android:textColor">@color/redLight</item>
+    </style>
+
+    <style name="CounterText" parent="TextAppearance.Design.Counter">
+        <item name="android:textSize">@dimen/mediumText</item>
+        <item name="android:textColor">@android:color/holo_orange_dark</item>
+    </style>
+
+    <style name="TextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/colorAccent</item>
+    </style>
+
+
+</resources>

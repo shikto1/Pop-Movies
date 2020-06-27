@@ -1,0 +1,39 @@
+<!DOCTYPE resources [
+        <!ENTITY appname "Pop Movies">
+        <!ENTITY veriable_name "value">
+        ]>
+
+<resources>
+    <string name="app_name">&appname;</string>
+
+    <string name="the_moviedb_api_key">4113f3ad734e747a5b463cde8c55de42</string>
+    // BUTTON
+    <string name="cancel">Cancel</string>
+    <string name="button_not_now">Not Now</string>
+    <string name="button_update">Update Now</string>
+    <string name="btn_continue">Continue</string>
+    <string name="btn_dont_allow">Don\'t Allow</string>
+    <string name="next" translatable="false">Next</string>
+    <string name="btn_submit" translatable="false">Submit</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="agreeAndContinue">Agree and Continue</string>
+    <string name="btn_search">Search</string>
+    <string name="okay">Okay</string>
+    <string name="details_btn">Details</string>
+    <string name="btn_retry">Retry</string>
+
+    // LOADING MESSAGE
+    <string name="please_wait">Please wait&#8230;</string>
+    <string name="logging_in">Logging in, please wait&#8230;</string>
+    <string name="logging_out">Logging out, please wait&#8230;</string>
+    <string name="registering">Registering&#8230;</string>
+    <string name="updating_profile">Updating profile&#8230;</string>
+    <string name="processing_img">Processing&#8230;</string>
+
+    // MESSAGE
+    <string name="no_internet_connection">No Internet Connection !</string>
+    <string name="no_internet_msg">Please activate your internet connection and try again</string>
+    <string name="something_wrong">Something went wrong. Please try again.</string>
+
+</resources>

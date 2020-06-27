@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <color name="colorPrimary">#191919</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#333333</color>
+
+
+    <color name="btnDisabled">#cfd7e7</color>
+    <color name="white">#fff</color>
+    <color name="offWhite">#f1efef</color>
+    <color name="darkWhite">#e2e1e1</color>
+    <color name="black">#000</color>
+    <color name="redLight">@android:color/holo_red_light</color>
+
+    <color name="divider_color">#e4e4e4</color>
+
+
+    <color name="mtrl_textinput_default_box_stroke_color" tools:override="true">#ededed</color>
+
+</resources>

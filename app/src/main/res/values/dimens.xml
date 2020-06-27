@@ -1,0 +1,56 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">80dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+
+    <!--Text-->
+    <dimen name="xxxSmallText">9sp</dimen>
+    <dimen name="xxSmallText">11sp</dimen>
+    <dimen name="xSmallText">12sp</dimen>
+    <dimen name="smallText">15sp</dimen>
+    <dimen name="mediumText">17sp</dimen>
+    <dimen name="normalText">18sp</dimen>
+    <dimen name="largeText">19sp</dimen>
+    <dimen name="xLargeText">20sp</dimen>
+    <dimen name="xxLargeText">22sp</dimen>
+    <dimen name="xxxLargeText">24sp</dimen>
+    <dimen name="xxxxLargeText">26sp</dimen>
+    <dimen name="xxxxxLargeText">28sp</dimen>
+    <dimen name="titleTextSize">34sp</dimen>
+    <dimen name="splashTitleTextSize">50sp</dimen>
+    <dimen name="dashboardTextSize">28sp</dimen>
+
+
+    <!--Margin-->
+    <dimen name="xxxSmallMargin">2dp</dimen>
+    <dimen name="xxSmallMargin">3dp</dimen>
+    <dimen name="xSmallMargin">4dp</dimen>
+    <dimen name="smallMargin">6dp</dimen>
+    <dimen name="mediumMargin">8dp</dimen>
+    <dimen name="normalMargin">10dp</dimen>
+    <dimen name="largeMargin">12dp</dimen>
+    <dimen name="xLargeMargin">14dp</dimen>
+    <dimen name="xxLargeMargin">16dp</dimen>
+    <dimen name="xxxLargeMargin">18dp</dimen>
+    <dimen name="xxxxLargeMargin">22dp</dimen>
+    <dimen name="veryLargeMargin">30dp</dimen>
+
+
+    <!--Padding-->
+    <dimen name="rootPadding">24dp</dimen>
+    <dimen name="smallPadding">6dp</dimen>
+    <dimen name="mediumPadding">8dp</dimen>
+    <dimen name="padding">10dp</dimen>
+    <dimen name="preNormalPadding">13dp</dimen>
+    <dimen name="normalPadding">16dp</dimen>
+    <dimen name="largePadding">18dp</dimen>
+    <dimen name="xLargePadding">20dp</dimen>
+    <dimen name="xxLargePadding">30dp</dimen>
+    <dimen name="xxxLargePadding">50dp</dimen>
+    <dimen name="xxxxLargePadding">60dp</dimen>
+
+</resources>
