@@ -60,7 +60,7 @@ dependencies {
 
     //UI
     def card_view_version = '1.0.0'
-    def recycler_view_version = '1.2.0-alpha02'
+    def recycler_view_version = '1.2.0-alpha04'
 
     // TESTING
     def runner_version = '1.3.0-alpha02'
@@ -83,27 +83,6 @@ dependencies {
     def picasso_version = '2.5.2'
     def glide_version = '4.9.0'
     def okhttp_version = '2.4.0'
-    def circle_image_view_version = '2.2.0'
-    def rounded_image_view_version = '2.3.0'
-
-    // FIRE_BASE
-    def fire_base_auth_version = '19.3.0'
-    def fire_base_storage_version = '19.1.1'
-    def fire_base_database_version = '19.2.1'
-    def fire_base_messaging = '20.1.5'
-    def fire_base_analytics = '17.3.0'
-    def fire_base_ml_vision_api_version = '24.0.2'
-
-    // Play Service
-    def play_service_version = '17.0.0'
-    def play_service_vision_version = '19.0.0'
-
-    // ROOM DATABASE
-    def extension_version = '2.2.0'
-    def room_version = '2.2.5'
-    def ucrop_version = '2.2.4'
-    def pickit_version = '0.1.7'
-
 
 
     implementation fileTree(include: ['*.jar'], dir: 'libs')
@@ -115,11 +94,10 @@ dependencies {
 
     // Testing
     implementation 'androidx.appcompat:appcompat:1.0.0-alpha1'
-    implementation 'androidx.constraintlayout:constraintlayout:1.1.2'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
     testImplementation "junit:junit:$junit_version"
     androidTestImplementation "androidx.test:runner:$runner_version"
     androidTestImplementation "androidx.test.espresso:espresso-core:$espresso_version"
-    testImplementation "androidx.room:room-testing:$room_version"
 
     // CARD_VIEW + RECYCLER_VIEW
     implementation "androidx.cardview:cardview:$card_view_version"

@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.View
 import androidx.recyclerview.widget.GridLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.movieplayer.android.R
 import com.movieplayer.android.adapters.PaginationScrollListener
 import com.movieplayer.android.adapters.PopularMovieAdapter
@@ -15,6 +16,7 @@ import com.movieplayer.android.data.network.api_response.PopularMovieResponse
 import com.movieplayer.android.ui.movie_details.MovieDetailsActivity
 import com.movieplayer.android.utils.Constants.IntentKeys
 import com.movieplayer.android.utils.Navigator
+import com.movieplayer.android.utils.showToast
 import kotlinx.android.synthetic.main.activity_popular_movie.*
 
 
@@ -39,6 +41,7 @@ class PopularMovieActivity : MvpBaseActivity<PopularMoviePresenter>(), PopularMo
 
     private fun setUpAdapter() {
         popularMovieAdapter = PopularMovieAdapter(getContext())
+        popularMovieAdapter.stateRestorationPolicy = RecyclerView.Adapter.StateRestorationPolicy.PREVENT_WHEN_EMPTY
         gridLayoutManager = if (currentScreenOrientation() == Configuration.ORIENTATION_PORTRAIT) GridLayoutManager(getContext(), 2) else GridLayoutManager(getContext(), 3)
 
         recyclerView.apply {
